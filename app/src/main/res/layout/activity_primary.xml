@@ -4,7 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".PrimaryActivity"
-    android:background="#27ffe100"
+    android:background="@color/background"
     android:id="@+id/theLayout">
 
     <ScrollView
@@ -17,98 +17,89 @@
         android:layout_height="wrap_content"
         android:text="@string/APP_BUILD_IT_BIGGER"
         android:id="@+id/builtButton"
-        android:width="200dp"
-        android:textColor="#fbe9e2"
-        android:background="#bf59ff"
+        android:background="@color/build"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
         android:onClick="goBuild"
-        android:clickable="true" />
+        android:clickable="true"
+        style="@style/buttonStyle"
+        android:layout_marginTop="35dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/APP_PORTFOLIO_TITLE"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
+        android:typeface="monospace"
+        android:textSize="25dp"
+        android:singleLine="false"
+        android:phoneNumber="false"
         android:textStyle="bold"
-        android:typeface="monospace" />
+        android:textColor="@color/titleText" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/APP_XYZ_READER"
         android:id="@+id/xyzButton"
-        android:width="200dp"
-        android:textColor="#fbe9e2"
-        android:background="#ff6f00"
+        android:background="@color/xyz"
         android:layout_below="@+id/builtButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp"
         android:onClick="goXYZ"
-        android:clickable="true" />
+        android:clickable="true"
+        style="@style/buttonStyle" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/APPS_SCORES_APP"
         android:id="@+id/scoreButton"
-        android:width="200dp"
-        android:textColor="#fbe9e2"
-        android:background="#ff4b00"
+        android:background="@color/scores"
         android:onClick="goScores"
-        android:clickable="true"
+        android:clickable="false"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
-        android:layout_marginTop="19dp" />
+        style="@style/buttonStyle" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/APP_LIBRARY_APP"
         android:id="@+id/libButton"
-        android:width="200dp"
-        android:textColor="#fbe9e2"
-        android:background="#872bff"
+        android:background="@color/library"
         android:onClick="goLibrary"
-        android:clickable="true"
+        android:clickable="false"
         android:layout_below="@+id/scoreButton"
         android:layout_alignLeft="@+id/scoreButton"
         android:layout_alignStart="@+id/scoreButton"
-        android:layout_marginTop="19dp" />
+        style="@style/buttonStyle" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/APP_SPOTIFY_STREAMER"
         android:id="@+id/button"
-        android:width="200dp"
-        android:textColor="#fbe9e2"
-        android:background="#4044ff"
+        android:background="@color/spotify"
         android:onClick="goSPOTIFY"
-        android:clickable="true"
+        android:clickable="false"
         android:layout_below="@+id/xyzButton"
         android:layout_alignLeft="@+id/xyzButton"
         android:layout_alignStart="@+id/xyzButton"
-        android:layout_marginTop="19dp" />
+        style="@style/buttonStyle" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/APP_CAPSTONE"
         android:id="@+id/button2"
-        android:width="200dp"
-        android:textColor="#fbe9e2"
-        android:background="#ff0093"
+        android:background="@color/capstone"
         android:onClick="goLibrary"
-        android:clickable="true"
+        android:clickable="false"
         android:layout_below="@+id/libButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp" />
+        style="@style/buttonStyle" />
 
 </RelativeLayout>

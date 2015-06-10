@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="background" type="color">#2d3b6f</item>
+    <item name="titleText" type="color">#7f9fde</item>
+    <item name="build" type="color">#bf59ff</item>
+    <item name="xyz" type="color">#ff6f00</item>
+    <item name="spotify" type="color">#4044ff</item>
+    <item name="scores" type="color">#ff4b00</item>
+    <item name="library" type="color">#872bff</item>
+    <item name="capstone" type="color">#ff0093</item>
+
+</resources>
