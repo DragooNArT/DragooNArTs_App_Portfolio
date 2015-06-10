@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DragooNArT\'s App Portfolio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="APP_PORTFOLIO_TITLE">My nanodegree Apps</string>
+    <string name="APP_BUILD_IT_BIGGER">BUILD IT BIGGER</string>
+    <string name="APP_XYZ_READER">XYZ READER</string>
+    <string name="APP_SPOTIFY_STREAMER">Spotify Streamer</string>
+    <string name="APPS_SCORES_APP">Scores App</string>
+    <string name="APP_LIBRARY_APP">LIBRARY APP</string>
+    <string name="APP_CAPSTONE">CAPSTONE: SOME_APP</string>
+</resources>
